@@ -1,0 +1,107 @@
+*{
+    max-width: 70rem;
+    margin: 0 auto;
+    align-items: center;
+    padding: 0.5rem;
+    font-family: 'Poppins';
+}
+body{
+    background-image: url("assets/images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    max-width: 40rem;
+    max-height: 60rem;
+
+}
+.name{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+}
+#welcome{
+    font-weight: lighter;
+    text-align: center;
+    color: grey;
+}
+#log{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+}
+.form{
+    background-image: -moz-linear-gradient(0,0,0,0.4),url("assets/images/loginbgd.jpeg");
+    border: 3px solid #f1f1f1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(9, 196, 243);
+}
+  input[type=text], input[type=password] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 0 auto;
+    display: inline-block;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid;
+  }
+  button{
+    background-color: rgb(9, 196, 243);
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    font-weight: bolder;
+    font-size: 30px;
+    border-radius: 8px;
+    margin-left: 4rem;
+    margin-right: 7rem;
+    margin-top: 1rem;
+  }
+  button:hover {
+    opacity: 0.8;
+    background-color: rgb(0, 119, 255);
+  }
+  .imgcontainer {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .topimage{
+    width: 40%;
+    border-radius: 5%;
+  }
+  .container {
+    padding: 20px;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  span.reset {
+    padding-top: 16px;
+    color: rgb(9, 196, 243);
+    float: right;
+  }
+  @media screen and (max-width: 300px) {
+    span.reset {
+      display: block;
+      float: none;
+    }
+  }
+  .last a{
+    color: blue;
+    font-size: small;
+    font-weight: lighter;
+    float: right;
+  }
+  #checkbox{
+    float: left;
+  }
+  .lowercontainer a{
+    color: blue;
+  }
