@@ -98,10 +98,21 @@ body{
     font-size: small;
     font-weight: lighter;
     float: right;
+    text-decoration: none;
   }
   #checkbox{
     float: left;
   }
   .lowercontainer a{
     color: blue;
+    text-decoration: none;
+  }
+  .lowercontainer a:hover{
+    color: black;
+    text-decoration: underline;
+  }
+  .last a:hover{
+    color: black;
+    font-weight: light;
+    text-decoration: underline;
   }
