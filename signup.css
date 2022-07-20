@@ -1,0 +1,18 @@
+*{
+    margin: 1;
+    padding: 10px;
+    margin-top: 10px;
+    padding-top: 3px;
+    margin-bottom: 12px;
+    
+}
+.name{
+    display: flex;
+    flex-direction: row;
+}
+
+body{
+    background-color: rgb(9,196,243);
+}
+    
+    
