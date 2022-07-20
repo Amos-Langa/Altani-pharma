@@ -1,0 +1,180 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://www.ivrxpharmaceuticals.com/wp-content/themes/ivrxpharma/images/slider/3.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+   
+    
+    
+}
+header{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    background-color:  rgb(233, 188, 233);
+}
+.prod-head{
+    padding-bottom: 2rem;
+    padding-top: 0em;
+}
+
+.header-text{
+    font-weight: 800;
+    padding-left: 150px;
+}
+
+.logo-text h3{
+    margin: 2em;
+}
+
+.logo-text a{
+    text-decoration: underline;
+    color: #202020;
+    font-family: 'Oleo Script', cursive;
+    font-size: 1.5em;
+}
+
+.nav-bar{
+    margin: 0 auto;
+}
+
+.nav-bar a:hover{
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    color: #202020;
+    
+}
+
+.nav-bar a:not(:last-child){
+    margin-right: 1rem;
+}
+
+.nav-bar a.active{
+    color: #4c055e;
+    font-weight: 700;
+}
+
+.purple-btn{
+    background-color: #4c055e;
+    color: #fff;
+    border: none;
+    padding: .75rem 1rem;
+    border-radius: .25rem;
+    text-decoration: none;
+}
+
+#logo-btn {
+    margin-right: 150px;
+}
+
+.purple-btn a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.purple-btn i{
+    padding-right: 20px;
+
+}
+.products{
+    
+    margin-left:0;
+    margin-right: 0;
+    
+    
+    
+    
+}
+.prod-head{
+    text-align: center;
+    margin-top: 0em;
+    color: #fff;
+    font-size: 3em;
+    padding-top: 2em;
+    
+    
+
+}
+.medtypes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.medtypes-1{
+    margin-bottom: 10em;
+}
+
+
+.cards{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    
+    
+    
+   
+}
+.prod-card{
+
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    height: 28%;
+    
+}
+.card-img{
+    height: 85%;
+    width: 100%;
+}
+.card-txt{
+    background-color: rgb(233, 188, 233);
+    padding-left: 2em;
+    color: #FAFAFA;
+    padding-top: 0px;
+    height: 15%;
+}
+
+    /* Bottom*/
+footer{
+    background-color: #4c055e;
+    color: #fff;
+    padding: 30px 50px;
+}
+
+.bottom a{
+    color: inherit;
+    text-decoration: none;
+    display: block;
+}
+
+.row .col-1-4{
+    width: 23%;
+}
+
+.row .col-1b-4{
+    width: 31%;
+}
+
+.row .col-1b-4 p{
+    padding-right: 30px;
+}
+
+.row .col4-1-3{
+    background-color: white;
+    margin-right: 50px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#bottom-row {
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+
