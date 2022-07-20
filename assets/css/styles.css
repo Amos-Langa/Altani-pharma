@@ -39,7 +39,7 @@ body{
     background-size: cover;
     background-color: rgb(9, 196, 243);
 }
-  input[type=text], input[type=password] {
+  span>input[type=text], input[type=password] {
     width: 80%;
     padding: 12px 20px;
     margin: 0 auto;
