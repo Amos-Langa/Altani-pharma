@@ -242,10 +242,10 @@ body{
     display: flex;
     flex-direction: row;
 }
-.col-1b-4{
+/*.col-1b-4{
     font-size: 3rem;
     display: flex;
-}
+}*/
 .row a:hover{
     text-decoration: underline;
 }
@@ -253,4 +253,19 @@ body{
     display: flex;
     flex-direction: row;
     font-size: 5rem;
+}
+.icons {
+    color: rgb(255, 255, 255);
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    padding-top: 0;
+    margin-top: .3em;
+    
+
+}
+.icons i{
+    justify-content: space-evenly;
+    padding: .3em;
+
 }
