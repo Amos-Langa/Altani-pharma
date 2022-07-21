@@ -27,9 +27,6 @@ header{
     font-family: "Poppins";
 }
 
-.header-icon{
-    height: 2em;
-}
 .logo-text {
     margin: 2em;
 }
@@ -149,11 +146,12 @@ header{
 
     /* Bottom*/
     footer {
-        margin-top: 0.4em;
+        margin-top: 4em;
         /* margin-left: 5%; */
         /* margin-right: 5%; */
         background-color: #4c055e;
         color:#fff;
+        padding-top: 2em;
         
        
         align-items: center;
