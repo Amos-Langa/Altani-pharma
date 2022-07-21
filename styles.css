@@ -24,9 +24,10 @@ header{
 .header-text{
     font-weight: 800;
     padding-left: 150px;
+    font-family: "Poppins";
 }
 
-.logo-text h3{
+.logo-text {
     margin: 2em;
 }
 
