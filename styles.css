@@ -1,8 +1,8 @@
 body{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Poppins';
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://www.ivrxpharmaceuticals.com/wp-content/themes/ivrxpharma/images/slider/3.jpg");
     background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
    
     
@@ -169,5 +169,22 @@ header{
     .footer-center {
         text-align: center;
         margin-bottom: 2em 0;
+    }
+    .row a{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+    }
+    .col-1b-4{
+        font-size: 3rem;
+    }
+    .row a:hover{
+        text-decoration: underline;
     }
     
