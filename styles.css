@@ -143,23 +143,27 @@ header{
     /* Bottom*/
     footer {
         margin-top: 0.4em;
-        margin-left: 5%;
-        margin-right: 5%;
+        /* margin-left: 5%; */
+        /* margin-right: 5%; */
         background-color: #4c055e;
         color:#fff;
-        padding: 40px 35px;
+        
+       
+        align-items: center;
         
     }
-    
-    .footer{
+    .row{
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
         min-height: 30vh;
     }
     
+    
+    
     ul {
         list-style: none;
-        padding: 0%;
+        padding: 2%;
     }
     
     .summary {
