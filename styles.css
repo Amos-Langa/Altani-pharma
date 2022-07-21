@@ -27,6 +27,9 @@ header{
     font-family: "Poppins";
 }
 
+.header-icon{
+    height: 2em;
+}
 .logo-text {
     margin: 2em;
 }
